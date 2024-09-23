@@ -1,3 +1,4 @@
+```
 var countPrimes = function (n) {
     if (n < 2) return 0;
     let primes = new Array(n).fill(true);
@@ -18,7 +19,7 @@ var countPrimes = function (n) {
     return count;
 
 };
-
+```
 	The function countPrimes takes an integer n as input and returns the count of prime numbers less than n.
 	•	If n is less than 2, the function returns 0 since there are no prime numbers below 2.
 	•	The primes array marks all numbers as true initially. Then, using the Sieve of Eratosthenes algorithm, multiples of each prime are marked as false.
